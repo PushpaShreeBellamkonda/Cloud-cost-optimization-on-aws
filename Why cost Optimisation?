@@ -1,9 +1,9 @@
-## Why cost Optimization
+# Why cost Optimization
 -Assume we have created an EC2 and also taken some snapshots (backups) of it.   
 -We might delete the instance but forgot to delete its volume.
 -Then obviously aws will cost for it and for snapshots
 -Also we created an s3 bucket and uploaded an object and using it for long time ,then we also we will be charged        
-## Stale resources : 
+# Stale resources : 
 Resources  that   have been using since very long but not deleting them.
 Now devops engineer will take care of this issue
 **Example** : we created an c2 instance and created few snapshots
